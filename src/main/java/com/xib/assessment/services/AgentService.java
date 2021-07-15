@@ -1,8 +1,8 @@
 package com.xib.assessment.services;
 
-import com.xib.assessment.dtos.AgentDto;
+import com.xib.assessment.mapstract.dto.AgentDto;
 import com.xib.assessment.exceptions.NoDataFoundException;
-import com.xib.assessment.mappers.AgentMapper;
+import com.xib.assessment.mapstract.mappers.AgentMapper;
 import com.xib.assessment.persistence.entities.Agent;
 import com.xib.assessment.persistence.repositories.AgentRepository;
 import org.springframework.stereotype.Service;

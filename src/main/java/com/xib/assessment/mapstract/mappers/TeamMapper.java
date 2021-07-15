@@ -1,6 +1,6 @@
-package com.xib.assessment.mappers;
+package com.xib.assessment.mapstract.mappers;
 
-import com.xib.assessment.dtos.TeamDto;
+import com.xib.assessment.mapstract.dto.TeamDto;
 import com.xib.assessment.persistence.entities.Team;
 
 public class TeamMapper {

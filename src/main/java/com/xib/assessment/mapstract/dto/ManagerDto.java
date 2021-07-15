@@ -1,19 +1,21 @@
-package com.xib.assessment.dtos;
+package com.xib.assessment.mapstract.dto;
 
 import lombok.*;
+
+import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Setter
 @Builder
 @ToString
-public class AgentDto {
+public class ManagerDto {
 
     private Long id;
     private String firstName;
     private String lastName;
     private String idNumber;
-    private TeamDto teamDto;
+    private List<TeamDto> teams;
 
     public Long getId() {
         if (this.id != null)
@@ -39,7 +41,7 @@ public class AgentDto {
         return "";
     }
 
-    public TeamDto getTeamDto() {
-        return teamDto;
+    public List<TeamDto> getTeams() {
+        return teams;
     }
 }

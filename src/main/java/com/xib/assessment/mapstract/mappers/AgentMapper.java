@@ -1,6 +1,6 @@
-package com.xib.assessment.mappers;
+package com.xib.assessment.mapstract.mappers;
 
-import com.xib.assessment.dtos.AgentDto;
+import com.xib.assessment.mapstract.dto.AgentDto;
 import com.xib.assessment.persistence.entities.Agent;
 
 public class AgentMapper {

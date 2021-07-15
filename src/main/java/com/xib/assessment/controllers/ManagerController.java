@@ -1,8 +1,6 @@
 package com.xib.assessment.controllers;
 
-import com.xib.assessment.dtos.AgentDto;
-import com.xib.assessment.dtos.ManagerDto;
-import com.xib.assessment.dtos.TeamDto;
+import com.xib.assessment.mapstract.dto.ManagerDto;
 import com.xib.assessment.services.ManagerService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;

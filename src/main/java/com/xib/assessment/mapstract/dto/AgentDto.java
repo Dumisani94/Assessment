@@ -1,23 +1,19 @@
-package com.xib.assessment.dtos;
+package com.xib.assessment.mapstract.dto;
 
-import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Setter
 @Builder
 @ToString
-public class ManagerDto {
+public class AgentDto {
 
     private Long id;
     private String firstName;
     private String lastName;
     private String idNumber;
-    private List<TeamDto> teams;
+    private TeamDto teamDto;
 
     public Long getId() {
         if (this.id != null)
@@ -43,7 +39,7 @@ public class ManagerDto {
         return "";
     }
 
-    public List<TeamDto> getTeams() {
-        return teams;
+    public TeamDto getTeamDto() {
+        return teamDto;
     }
 }

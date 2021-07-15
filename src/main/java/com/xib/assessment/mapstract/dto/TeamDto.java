@@ -1,4 +1,4 @@
-package com.xib.assessment.dtos;
+package com.xib.assessment.mapstract.dto;
 
 import lombok.*;
 

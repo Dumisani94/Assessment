@@ -1,6 +1,6 @@
-package com.xib.assessment.mappers;
+package com.xib.assessment.mapstract.mappers;
 
-import com.xib.assessment.dtos.ManagerDto;
+import com.xib.assessment.mapstract.dto.ManagerDto;
 import com.xib.assessment.persistence.entities.Manager;
 
 public class ManagerMapper {

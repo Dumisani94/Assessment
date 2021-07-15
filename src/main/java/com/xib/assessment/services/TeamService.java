@@ -1,9 +1,9 @@
 package com.xib.assessment.services;
 
-import com.xib.assessment.dtos.AgentDto;
-import com.xib.assessment.dtos.TeamDto;
+import com.xib.assessment.mapstract.dto.AgentDto;
+import com.xib.assessment.mapstract.dto.TeamDto;
 import com.xib.assessment.exceptions.NoDataFoundException;
-import com.xib.assessment.mappers.TeamMapper;
+import com.xib.assessment.mapstract.mappers.TeamMapper;
 import com.xib.assessment.persistence.entities.Team;
 import com.xib.assessment.persistence.repositories.TeamRepository;
 import org.springframework.stereotype.Service;

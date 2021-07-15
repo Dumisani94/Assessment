@@ -1,6 +1,6 @@
 package com.xib.assessment.controllers;
 
-import com.xib.assessment.dtos.AgentDto;
+import com.xib.assessment.mapstract.dto.AgentDto;
 import com.xib.assessment.services.AgentService;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

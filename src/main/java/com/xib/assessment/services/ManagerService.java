@@ -1,7 +1,7 @@
 package com.xib.assessment.services;
 
-import com.xib.assessment.dtos.ManagerDto;
-import com.xib.assessment.mappers.ManagerMapper;
+import com.xib.assessment.mapstract.dto.ManagerDto;
+import com.xib.assessment.mapstract.mappers.ManagerMapper;
 import com.xib.assessment.persistence.repositories.ManagerRepository;
 import org.springframework.stereotype.Service;
 

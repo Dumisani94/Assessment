@@ -1,10 +1,8 @@
 package com.xib.assessment.persistence.entities;
 
-import com.xib.assessment.dtos.TeamDto;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
